@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>上传测试</title>
+</head>
+
+<h3>http://127.0.0.1:19999/images</h3>
+<form action="http://127.0.0.1:19999/images" method="POST" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td><input type="file" name="image1"/></td>
+            <td><input type="file" name="image2"/></td>
+            <td><input type="text" name="imageInputName" value="image1,image2" hidden/></td>
+            <td><input type="submit" ID="btn_Imports_1"  value="上传"/></td>
+        </tr>
+    </table>
+</form>
+<hr>
+<h3>http://10.32.64.232:19999/images</h3>
+<form action="http://10.32.64.232:19999/images" method="POST" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td><input type="file" name="image1"/></td>
+            <td><input type="file" name="image2"/></td>
+            <td><input type="text" name="imageInputName" value="image1,image2" hidden/></td>
+            <td><input type="submit" ID="btn_Imports_2"  value="上传"/></td>
+        </tr>
+    </table>
+</form>
+<hr>
+</html>

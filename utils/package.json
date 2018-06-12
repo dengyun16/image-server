@@ -1,0 +1,15 @@
+{
+  "name": "Utils",
+  "version": "0.0.1",
+  "description": "a utils contain a series of frequently-used tools like lodash uuid inflection validator moment and so on",
+  "main": "utils",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "utils",
+    "tools"
+  ],
+  "author": "liuyanjie",
+  "license": "NO"
+}

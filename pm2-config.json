@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "image-service",
+      "script": "app.js",
+      "merge_logs"       : true,
+      "exec_interpreter" : "node",
+      "exec_mode"        : "fork",
+      "autorestart"      : true,
+      "instances" : 1,
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
